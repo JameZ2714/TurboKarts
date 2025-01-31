@@ -1,0 +1,154 @@
+header{
+          background-color: black;
+          color: whitesmoke;
+}
+
+main{
+          background-color: ghostwhite;
+          color: black;
+}
+
+footer{
+          background-color: black;
+          color: whitesmoke;
+}
+
+.title{
+          color: white;
+          padding: 0px;
+          margin: 5px;
+}
+
+.title:hover{
+          color: red;
+}
+
+.section{
+          outline-style: solid;
+          outline-color: black;
+          padding: 1px;
+}
+
+nav{
+          display: flex;
+          list-style-type: none;
+          margin: 0px;
+          padding: 10px;
+          flex-direction: row;
+}
+
+#navbar{
+          background-image: url(https://kartcrg.com/wp-content/uploads/2024/12/KartCRG_KZ_2-1.webp);
+          background-size: 100% 150px;
+          background-repeat: no-repeat;
+          background-attachment: local;
+}
+
+a, a:visited{
+          text-decoration: none;
+          color: white;
+}
+
+ul{
+          background-color: crimson;
+          display: block;
+          padding: 16px 32px;
+          border-style: solid;
+          border-width: 2px;
+          border-color: whitesmoke;
+}
+
+ul:hover{
+          background-color: aqua;
+}
+
+h2::first-letter{
+          font-size: 32px;
+}
+
+body{
+          font-family: "Yuji Mai", serif;
+          font-weight: 400;
+          font-style: normal;
+}
+
+main p{
+          text-indent: 45px;
+          font-size: 18px;
+          width: 1000px;
+}
+
+main h3{
+          text-indent: 25px;
+          padding: 20px;
+}
+
+main img{
+          display: flex;
+          padding: 20px;
+}
+
+.homeimg{
+          width: 800px;
+          position: relative;
+          display: flex;
+          flex-wrap: wrap;
+}
+
+.list{
+          grid-column-start: 1;
+          grid-column-end: 2;
+}
+
+.listimg{
+          grid-column-start: 2;
+          grid-column-end: 4;
+          column-gap: 20px;
+          align-items: left;
+}
+
+.conttxt{
+          width: 540px;
+}
+
+.contimg{
+          width: 700px;
+}
+
+.grid{
+          display: grid;
+          grid-auto-columns: 500px;
+          align-content: center;
+          column-gap: 100px;
+}
+
+.paddingtop {
+          padding-top: 95px;
+}
+
+footer{
+          position: sticky;
+          bottom: 0;
+}
+
+.gallery img{
+          width: 400px;
+          position: relative;
+          display: flex;
+          flex-wrap: wrap;
+}
+
+.column1{
+          grid-column-start: 1;
+          grid-column-end: 2;
+}
+
+.column2{
+          grid-column-start: 2;
+          grid-column-end: 3;
+}
+
+.column3{
+          grid-column-start: 3;
+          grid-column-end: 4;
+}
