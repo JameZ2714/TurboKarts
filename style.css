@@ -31,6 +31,8 @@ footer{
           padding: 1px;
 }
 
+/* nav bar css */
+
 nav{
           display: flex;
           list-style-type: none;
@@ -139,6 +141,8 @@ footer{
           display: flex;
           flex-wrap: wrap;
 }
+
+/* css for columns used across all pages */
 
 .column1{
           grid-column-start: 1;
